@@ -14,7 +14,16 @@
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
+    "@types/chalk": "^2.2.4",
+    "@types/degit": "^2.8.6",
+    "@types/inquirer": "^9.0.8",
     "@types/node": "^22.15.18",
     "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "commander": "^13.1.0",
+    "degit": "^2.8.4",
+    "inquirer": "^12.6.1"
   }
 }
