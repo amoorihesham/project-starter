@@ -1,12 +1,12 @@
 #!/usr/bin/env node
 
 import fs from 'fs';
+import path from 'path';
+import { execSync } from 'child_process';
 import degit from 'degit';
 import inq from 'inquirer';
-import { repos } from './utils/reposTemplates';
-import { execSync } from 'child_process';
-import path from 'path';
 import chalk from 'chalk';
+import { repos } from './utils/reposTemplates.js';
 
 async function getInitialAnswers() {
   return await inq.prompt([
