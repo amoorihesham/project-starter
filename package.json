@@ -1,18 +1,35 @@
 {
   "name": "project-starter",
   "version": "1.0.0",
-  "description": "",
+  "description": "CLI tool to scaffold front-end/back-end projects",
   "main": "index.js",
   "type": "module",
   "bin": {
     "project-starter": "./dist/index.js"
   },
+  "keywords": [
+    "cli",
+    "starter",
+    "font-end",
+    "FRONT-END",
+    "Front-End",
+    "BACKEND",
+    "Back-End",
+    "back-end",
+    "Template",
+    "TEMPLATE",
+    "scaffold"
+  ],
+  "author": "Amr Hesham",
+  "license": "MIT",
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "scripts": {
-    "dev": "tsc -w"
+    "dev": "tsc -w",
+    "build": "tsc"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@types/chalk": "^2.2.4",
     "@types/degit": "^2.8.6",
