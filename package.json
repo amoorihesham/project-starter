@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "bin": {
-    "project-starter": "dist/index.js"
+    "csp": "dist/index.js"
   },
   "keywords": [
     "cli",
