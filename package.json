@@ -1,11 +1,11 @@
 {
-  "name": "project-starter",
+  "name": "@start-develop/csp",
   "version": "1.0.0",
   "description": "CLI tool to scaffold front-end/back-end projects",
   "main": "index.js",
   "type": "module",
   "bin": {
-    "project-starter": "./dist/index.js"
+    "project-starter": "dist/index.js"
   },
   "keywords": [
     "cli",
