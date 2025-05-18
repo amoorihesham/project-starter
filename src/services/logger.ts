@@ -1,18 +1,7 @@
-import chalk from 'chalk';
-
-export const logInfo = (msg: string) => console.log(chalk.yellow(msg));
-export const logSuccess = (msg: string) => console.log(chalk.green(msg));
-export const logError = (msg: string, err: unknown) => {
-  console.log(chalk.red(msg));
-  if (err) console.error(err);
-};
-
-export type msgLevels = 'INFO' | 'WARNING' | 'SUCCESS' | 'ERROR' | 'RAW';
-
 export class Logger {
-  formatter: { format: (level: msgLevels, message: string, timestamp: string) => string };
+  formatter: FormattersType;
 
-  constructor(formatter: { format: (level: msgLevels, message: string, timestamp: string) => string }) {
+  constructor(formatter: FormattersType) {
     this.formatter = formatter;
   }
 

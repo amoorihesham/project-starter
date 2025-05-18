@@ -1,13 +1,12 @@
 import fs from 'fs';
-import degit from 'degit';
 import { execSync } from 'child_process';
 import path from 'path';
 import { logger } from '../utils/print.js';
+import { cloner } from '../utils/cloner.js';
 export async function cloneProject(projectName, repo) {
     try {
-        const emitter = degit(repo, { cache: false, force: true, verbose: true });
         logger.info(` ⌛  Creating Project ${projectName} From Remote Template`);
-        await emitter.clone(projectName);
+        await cloner.clone(projectName, repo);
         logger.success(' ✅ Project Cloned Successfully.');
         process.chdir(projectName);
         logger.info(' 📦  Installing Required Dependencies...');

@@ -1,5 +1,4 @@
 import chalk from 'chalk';
-import { msgLevels } from '../services/logger.js';
 
 export class chalkLogger {
   format(level: msgLevels, message: string, timestamp: string) {

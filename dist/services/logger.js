@@ -1,11 +1,3 @@
-import chalk from 'chalk';
-export const logInfo = (msg) => console.log(chalk.yellow(msg));
-export const logSuccess = (msg) => console.log(chalk.green(msg));
-export const logError = (msg, err) => {
-    console.log(chalk.red(msg));
-    if (err)
-        console.error(err);
-};
 export class Logger {
     formatter;
     constructor(formatter) {
