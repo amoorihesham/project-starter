@@ -1,3 +1,11 @@
+## [1.1.4](https://github.com/amoorihesham/project-starter/compare/v1.1.3...v1.1.4) (2025-05-25)
+
+
+### Bug Fixes
+
+* user hit ctrl+c ([d83a8df](https://github.com/amoorihesham/project-starter/commit/d83a8dff8a2ecdeda8e713d7dc0d773522438f8e))
+* user hit ctrl+c ([c287749](https://github.com/amoorihesham/project-starter/commit/c2877492dc004e45114eb93dd29575ed2bdde910))
+
 ## [1.1.3](https://github.com/amoorihesham/project-starter/compare/v1.1.2...v1.1.3) (2025-05-25)
 
 
