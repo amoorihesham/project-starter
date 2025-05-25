@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/amoorihesham/project-starter/compare/v1.1.2...v1.1.3) (2025-05-25)
+
+
+### Bug Fixes
+
+* ctrl+c error with gracefully close ([23568a2](https://github.com/amoorihesham/project-starter/commit/23568a22028abae062948d84778569bf0b702930))
+
 ## [1.0.1](https://github.com/amoorihesham/project-starter/compare/v1.0.0...v1.0.1) (2025-05-25)
 
 
