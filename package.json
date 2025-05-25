@@ -1,6 +1,6 @@
 {
   "name": "@start-develop/csp",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "CLI tool to scaffold front-end/back-end projects",
   "main": "index.js",
   "type": "module",
