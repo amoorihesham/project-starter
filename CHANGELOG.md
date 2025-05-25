@@ -1,3 +1,10 @@
+## [1.1.5](https://github.com/amoorihesham/project-starter/compare/v1.1.4...v1.1.5) (2025-05-25)
+
+
+### Bug Fixes
+
+* add README.md file ([4920b79](https://github.com/amoorihesham/project-starter/commit/4920b7970bb20ebbda738b01d75bb1f5c21122e0))
+
 ## [1.1.4](https://github.com/amoorihesham/project-starter/compare/v1.1.3...v1.1.4) (2025-05-25)
 
 
