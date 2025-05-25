@@ -3,6 +3,10 @@ import { handleBackend } from './handlers/backend.js';
 import { handleFrontend } from './handlers/frontend.js';
 import { getInitialAnswers } from './prompts/initialPrompt.js';
 import { logger } from './utils/print.js';
+process.on('SIGINT', () => {
+    logger.error('Gracefully Exited...!');
+    process.exit(0);
+});
 async function StartProgram() {
     const { ProjectType } = await getInitialAnswers();
     switch (ProjectType) {
